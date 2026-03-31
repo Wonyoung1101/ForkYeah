@@ -1,0 +1,21 @@
+{
+  "name": "forkyeah",
+  "version": "1.0.0",
+  "description": "HCDD340 Project # March 30, 2026 * Zach Gleiter * Created: GitHub Repo * Added: CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, and README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdg5063-glitch/ForkYeah.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zdg5063-glitch/ForkYeah/issues"
+  },
+  "homepage": "https://github.com/zdg5063-glitch/ForkYeah#readme"
+}
