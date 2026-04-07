@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.page-content {
+  padding: 40px 50px 60px;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.filters-panel {
+  width: 150px;
+  height: 70px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.filters-panel h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: #111;
+}
+
+.searchbar-wrapper {
+  width: 600px;
+  height: 70px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.restaurant-card {
+  background-color: #d9d9d9;
+  height: 270px;
+  border-radius: 2px;
+  padding: 22px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-city {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  color: #444;
+}
+
+.card-food {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+  color: #111;
+  line-height: 1.2;
+}
+
+forkyeah-searchbar {
+  display: block;
+  width: 100%;
+}
